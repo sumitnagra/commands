@@ -1,0 +1,12 @@
+Clone - Cloning a repository on our local machine
+git clone "link of the repository"
+
+Add -Add a untracked file
+git add "file name" or to add all files git add .
+
+Commit-it is the record of change
+git commit -m "your massage"
+
+Push- upload local repository to remote repository
+git push origin "branch name"
+
