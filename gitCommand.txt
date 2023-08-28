@@ -1,15 +1,15 @@
 Clone - (Cloning a repository on our local machine)
-git clone "link of the repository"
+git clone <link of the repository>
 
 Add -(Add a untracked file)
-git add "file name" or to add all files git add .
+git add <file name> or to add all files git add .
 
 Commit-(it is the record of change)
-git commit -m "your massage"
+git commit -m <"your massage">
 
 Push- (upload local repository to remote repository)
-git push origin "branch name" (to push the code to the remote repository )
-git push -u origin "branch name" (to set an upstream , we can push code with only git push command)
+git push origin <branch name> (to push the code to the remote repository )
+git push -u origin <branch name> (to set an upstream , we can push code with only git push command)
 
 Init -to initialization git in the folder 
 git init-(for initialization)
@@ -19,13 +19,13 @@ git remote add origin "repository link"- (add local repository to remote reposit
  Branch 
  git branch - (to check the current branch name)
  git branch -M main -(to rename the branch to main)
-git checkout "branch name" (to switch the branch)
-git checkout -b "new branch name" (to create new branch)
-git branch -d "branch name" (to delete branch)
+git checkout <branch name> (to switch the branch)
+git checkout -b <new branch name> (to create new branch)
+git branch -d <branch name> (to delete branch)
 
 Merging 
-git diff "branch name" (compare commits, branches ,files & more)
-git merge "branch name" (to merge two branches)
+git diff <branch name> (compare commits, branches ,files & more)
+git merge <branch name> (to merge two branches)
 
 Pull 
 git pull origin main (used to fetch and download content from a remote repo and immediately update the local repo to match that content)
