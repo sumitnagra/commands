@@ -1,0 +1,46 @@
+show dbs = to show all database 
+
+use (name of the database)= switch to the specific database if data 
+
+db= show current database
+
+db.dropDatabase()= to delete the current database
+
+db.sumit.insertOne({})= to insert an collection to sumit database
+
+db.createCollection()= to create a collection 
+
+show collection = to show all the collection in the current database
+
+db.getCollectionInfos({name:"name of the collection"})= to show all the validation on the collection if it has
+
+db.sumit.drop()= to delete the sumit collection
+
+db.sumit.find()= to show all data in the sumit collection
+
+db.sumit.findOne()= show only one document which is added first
+
+db.sumit.insertOne({properties})= to Insert single data in the collection in the sumit collection
+
+db.sumit.insertMany([{},{},])= to insert more than one data in the collection in the sumit collection
+
+db.sumit.find().limit(2)=to show document limited by 2
+
+db.sumit.find({name:"sonam"})= to find the data on the basic of name having sonam
+
+db.sumit.updateOne({age:34},{$set:{name:"jack"}}=to update only one data on the basis which have the age 34 and it will change the name of all the data which having age:34
+
+ db.sumit.updateMany({name:"sameer"},{$set:{name:"sumit"}})=this will match all the data which having name sameer and set the value of  name to sumit
+
+db.sumit.deleteOne({age:34})= to delete the one document on the basic of age 34
+
+db.sumit.deleteMany({age:34})= to delete the all the document which having field age 34
+
+db.createUser({user:"sutdent",pwd:"123456",roles:[{role:"read",db:"sumit"}]})=
+this will create a user with user name student and password 123456 of the database sumit 
+
+show users = to see how many user having the current database
+
+mongosh --authenticationDatabase "sumit" -u "student" -p "123456" =to open the data base with authentication , -u for the username and -p for the password
+
+
